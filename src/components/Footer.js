@@ -2,6 +2,7 @@ import { FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone, FaWhatsapp } from
 import "./FooterStyles.css"
 
 import React from 'react'
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -34,12 +35,15 @@ const Footer = () => {
                     I turn ideas into functional and visually appealing websites.<br/>
                     Let's build something amazing together!</p>
                     <div className="social">
+                        <a href="https://www.linkedin.com/in/nud%C5%BEejma-halilovi%C4%87-635108237/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin size={20} 
-                        style={{color : "#fff", marginRight: "2rem"}}/>
+                        style={{color : "#fff", marginRight: "2rem"}}/> </a>
+                         <a href="https://www.instagram.com/halilovicnudzejma/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram size={20} 
-                        style={{color : "#fff", marginRight: "2rem"}}/>
+                        style={{color : "#fff", marginRight: "2rem"}}/></a>
+                         <a href="https://www.linkedin.com/in/nud%C5%BEejma-halilovi%C4%87-635108237/" target="_blank" rel="noopener noreferrer">
                         <FaWhatsapp size={20} 
-                        style={{color : "#fff", marginRight: "2rem"}}/>
+                        style={{color : "#fff", marginRight: "2rem"}}/></a>
                     </div>
             </div>
         </div>
