@@ -2,7 +2,6 @@ import { FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone, FaWhatsapp } from
 import "./FooterStyles.css"
 
 import React from 'react'
-import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
